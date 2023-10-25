@@ -12,16 +12,41 @@
 }
 
 
-.bg-red{
+#bg-red{
     background-color: red;
 }
 
-.bg-green{
+#bg-green{
     background-color: green;
 }
 
-.bg-yellow{
+#bg-yellow{
     background-color: yellow;
+}
+
+
+/* HEADER */
+header{
+    background-color: red;
+    height: 75px;
+    position: relative;
+    width: 100%;
+}
+
+.n-font{
+    border-radius: 20px;
+    background-color: white;
+}
+
+header > div{
+    display: flex;
+    position: absolute;
+    padding: 5px;
+    width: 150px;
+    justify-content: space-around;
+    top: 0;
+    right: 0;    
+    
 }
 
 /* MAIN */
@@ -29,11 +54,12 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
     
 }
 
 .col-100{
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
