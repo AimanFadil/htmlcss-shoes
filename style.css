@@ -52,8 +52,7 @@ header > div{
 /* MAIN */
 .row{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    
     position: absolute;
     
 }
